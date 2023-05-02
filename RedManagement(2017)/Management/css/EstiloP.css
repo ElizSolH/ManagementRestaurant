@@ -1,0 +1,486 @@
+nav{
+    text-align:center;
+    vertical-align:central;
+    min-height:initial;
+}
+nav.Menu{
+    background-color: rgba(181,21,21,.50);
+    color:#FFF;
+    min-height:77px;
+}
+.navbar-fixed-top{
+    border-width: 0px 1px 1px;
+}
+.fila{
+    padding:10px;
+    background:#FFF;
+    border-radius:5px;
+}
+.usuario{
+    background:#FFF;
+}
+* {
+    padding: 3px;
+}
+.fa{
+    margin-right: 2px;
+}
+body
+{
+    text-align:center;
+    color: #fff;
+    background:#7C0C0C;
+    font-family:'Lucida Sans';  
+}
+h1{
+    font-size:36px;
+    color: #fff;
+    font-family:'Arial Rounded MT Bold';
+}
+h2{
+    font-size:large;
+    font-family:'Lucida Sans';
+}
+p{
+    font-family:'Arial' monospace;
+}
+
+div.row
+{
+    margin:15px 0px;
+}
+ul
+{
+    text-decoration:none;
+    list-style:none;
+}
+.navbar-default .navbar-nav > li > a
+{
+    color:#fff;
+    display:inline-block;
+    font-size:24px;
+    text-decoration:none;
+    transition:all 0.5 ease;
+    margin:3px;
+    font-family:'Arial Rounded MT Bold';
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+    color:#F70C08;
+    -webkit-transform:scale(1.2) rotate(-2deg);
+    text-align:center;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color:#722b06;
+    background-color:#ed705a;
+    vertical-align: middle;
+}
+/*Pedro Estilo*/
+.Separación{
+    min-height: 25px;
+    width: 100%;
+}
+.ImagenPrincipal{
+    height:800px;
+    width:100%;
+}
+.Miniatura{
+    height:310px;
+    width:100%;
+}
+.TweBut{
+    background-color: #0E83DD;
+    border-radius: 0.5em;
+}
+a.twitter-timeline{
+    color: #FCFDFD;
+    font-size: 16px;
+}
+.row{
+    border-radius: 0.5em;
+    height: 54px;
+}
+.navbar-nav{
+    background-color: rgba(41,39,39,.50);
+}
+.btn{
+    background-color: rgba(41,39,39,.50);
+    color: #fff;
+}
+.btn:hover,a:hover{
+     color:#F70C08;
+    -webkit-transform:scale(1.2) rotate(-2deg);
+}
+.hiper{
+    text-decoration: none;
+    color: #fff;
+}
+.encabezado{
+    color: #FFF;
+    font-size: 30px;
+}
+.imagenesPromo{
+    height: 300px;
+    width: 600px;
+    position: center;
+}
+.BackPromo1{
+    background-color: rgba(41,39,39,.70);
+    opacity: 0.8;
+    color: #FFF;
+}
+.BackPromo2{
+    background-color: rgba(41,39,39,.70);
+    opacity: 0.8;
+    color: #FFF;
+}
+.BackPromo3{
+    background-color: rgba(41,39,39,.70);
+    opacity: 0.8;
+    color: #FFF;
+}
+.BackPromo4{
+    background-color: rgba(41,39,39,.70);
+    opacity: 0.8;
+    color: #FFF;
+}
+.modal-body{
+    font-size: 20px;
+}
+.UbicacionModal{
+    background-color: rgba(41,39,39,.70);
+    opacity: 0.8;
+    color: #FFF;
+}
+.footer{
+    background-color: rgba(41,39,39,.50);
+    border-radius: 1em;
+    color: #fff;
+}
+iframe{
+    width: 100%;
+}
+/*Slider-nav*/
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background-color: rgba(41,39,39,.50);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+nav.sidebar.navbar {
+        border-radius: 0px;
+        background-color: rgba(41,39,39,.50);
+    }
+
+    nav.sidebar, .main{
+        -webkit-transition: margin 200ms ease-out;
+        -moz-transition: margin 200ms ease-out;
+        -o-transition: margin 200ms ease-out;
+        transition: margin 200ms ease-out;
+    }
+
+    /* Add gap to nav and right windows.*/
+    .main{
+        padding: 10px 10px 0 10px;
+    }
+
+    /* .....NavBar: Icon only with coloring/layout.....*/
+
+    /*small/medium side display*/
+    @media (min-width: 768px) {
+
+        /*Allow main to be next to Nav*/
+        .main{
+            position: absolute;
+            width: calc(100% - 40px); /*keeps 100% minus nav size*/
+            margin-left: 40px;
+            float: right;
+        }
+
+        /*lets nav bar to be showed on mouseover*/
+        nav.sidebar:hover + .main{
+            margin-left: 200px;
+            background-color: rgba(41,39,39,.50);
+        }
+
+        /*Center Brand*/
+        nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+            margin-left: 0px;
+        }
+        /*Center Brand*/
+        nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+            text-align: center;
+            width: 100%;
+            margin-left: 0px;
+        }
+
+        /*Center Icons*/
+        nav.sidebar a{
+            padding-right: 13px;
+        }
+
+        /*adds border top to first nav box */
+        nav.sidebar .navbar-nav > li:first-child{
+            border-top: 1px #e5e5e5 solid;
+        }
+
+        /*adds border to bottom nav boxes*/
+        nav.sidebar .navbar-nav > li{
+            border-bottom: 1px #e5e5e5 solid;
+        }
+
+        /* Colors/style dropdown box*/
+        nav.sidebar .navbar-nav .open .dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        /*allows nav box to use 100% width*/
+        nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+            padding: 0 0px 0 0px;
+        }
+
+        /*colors dropdown box text */
+        .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+            color: #777;
+        }
+
+        /*gives sidebar width/height*/
+        nav.sidebar{
+            width: 200px;
+            height: 100%;
+            margin-left: -160px;
+            float: left;
+            z-index: 8000;
+            margin-bottom: 0px;
+        }
+
+        /*give sidebar 100% width;*/
+        nav.sidebar li {
+            width: 100%;
+        }
+
+        /* Move nav to full on mouse over*/
+        nav.sidebar:hover{
+            margin-left: 0px;
+            background-color: rgba(41,39,39,.50);
+            transition: none;
+        }
+        /*for hiden things when navbar hidden*/
+        .forAnimate{
+            opacity: 0;
+        }
+    }
+
+    /* .....NavBar: Fully showing nav bar..... */
+
+    @media (min-width: 1330px) {
+
+        /*Allow main to be next to Nav*/
+        .main{
+            width: calc(100% - 200px); /*keeps 100% minus nav size*/
+            margin-left: 200px;
+        }
+
+        /*Show all nav*/
+        nav.sidebar{
+            margin-left: 0px;
+            float: left;
+        }
+        /*Show hidden items on nav*/
+        nav.sidebar .forAnimate{
+            opacity: 1;
+        }
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #CCC;
+        background-color: transparent;
+    }
+
+    nav:hover .forAnimate{
+        opacity: 1;
+    }
+    section{
+        padding-left: 15px;
+    }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(41,39,39,.50);
+    transition: none;
+}
+/*Parallax*/
+.FilasGrandes
+{
+    min-height:200px;
+}
+.Parallax1
+{
+    position:relative;
+    background:url(../img/Alitas.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax2
+{
+    position:relative;
+    background:url(../img/Botellas.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax3
+{
+    position:relative;
+    background:url(../img/Chelas.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax4
+{
+    position:relative;
+    background:url(../img/Ensaladas.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax5
+{
+    position:relative;
+    background:url(../img/PostreMalteada.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax6
+{
+    position:relative;
+    background:url(../img/Sopas.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax7
+{
+    position:relative;
+    background:url(../img/Wraps.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+.Parallax8
+{
+    position:relative;
+    background:url(../img/Hamburguesa.jpg) no-repeat fixed #FFFFFF;
+    padding:50px 0;
+    color:#000;
+    font-size:24px;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    max-height:100%;
+    height:450px;
+}
+/*Paneles clientes*/

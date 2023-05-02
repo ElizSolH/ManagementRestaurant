@@ -1,0 +1,6 @@
+C:\Users\Pedro\Documents\Escuela\5 CUATRIMESTRE\RedHot Project\Management\Management\bin\Management.dll.config
+C:\Users\Pedro\Documents\Escuela\5 CUATRIMESTRE\RedHot Project\Management\Management\bin\Management.dll
+C:\Users\Pedro\Documents\Escuela\5 CUATRIMESTRE\RedHot Project\Management\Management\bin\Management.pdb
+C:\Users\Pedro\Documents\Escuela\5 CUATRIMESTRE\RedHot Project\Management\Management\obj\Debug\Management.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Documents\Escuela\5 CUATRIMESTRE\RedHot Project\Management\Management\obj\Debug\Management.dll
+C:\Users\Pedro\Documents\Escuela\5 CUATRIMESTRE\RedHot Project\Management\Management\obj\Debug\Management.pdb
